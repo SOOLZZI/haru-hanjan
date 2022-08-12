@@ -1,0 +1,9 @@
+[submodule "gateway"]
+	path = gateway
+	url = https://github.com/SOOLZZI/gateway.git
+[submodule "discovery"]
+	path = discovery
+	url = https://github.com/SOOLZZI/discovery.git
+[submodule "configuration"]
+	path = configuration
+	url = https://github.com/SOOLZZI/configuration.git
