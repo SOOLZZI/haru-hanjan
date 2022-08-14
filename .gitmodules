@@ -7,3 +7,9 @@
 [submodule "configuration"]
 	path = configuration
 	url = https://github.com/SOOLZZI/configuration.git
+[submodule "alcohol-explore-service"]
+	path = alcohol-explore-service
+	url = https://github.com/SOOLZZI/alcohol-explore-service.git
+[submodule "authentication"]
+	path = authentication
+	url = https://github.com/SOOLZZI/authentication.git
