@@ -10,3 +10,6 @@
 [submodule "authentication"]
 	path = authentication
 	url = https://github.com/SOOLZZI/authentication.git
+[submodule "alcohol-service"]
+	path = alcohol-service
+	url = https://github.com/SOOLZZI/alcohol-service.git
