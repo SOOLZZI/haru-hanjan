@@ -13,3 +13,6 @@
 [submodule "alcohol-service"]
 	path = alcohol-service
 	url = https://github.com/SOOLZZI/alcohol-service.git
+[submodule "recipe-service"]
+	path = recipe-service
+	url = https://github.com/SOOLZZI/recipe-service.git
