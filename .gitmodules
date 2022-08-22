@@ -10,3 +10,6 @@
 [submodule "recipe-service"]
 	path = recipe-service
 	url = https://github.com/SOOLZZI/recipe-service.git
+[submodule "order-service"]
+	path = order-service
+	url = https://github.com/SOOLZZI/order-service.git
