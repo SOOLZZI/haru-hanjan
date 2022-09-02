@@ -16,3 +16,6 @@
 [submodule "user-service"]
 	path = user-service
 	url = https://github.com/SOOLZZI/user-service.git
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/SOOLZZI/frontend.git
