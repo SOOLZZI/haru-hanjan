@@ -6,6 +6,16 @@ metadata:
     name: haru-han-jan
 spec:
   rules:
+   - http:
+      paths:
+      - pathType: Prefix
+        path: "/**"
+        backend:
+          service:
+            name: frontend
+            port: 
+              number: 8080
+
   #- host: v1.echo.127.0.0.1.sslip.io
    - http:
       paths:
@@ -14,5 +24,33 @@ spec:
         backend:
           service:
             name: alcohol-service
+            port: 
+              number: 8080
+
+   - http:
+      paths:
+      - pathType: Prefix
+        path: "/api/order"
+        backend:
+          service:
+            name: order-service
+            port: 
+              number: 8080
+   - http:
+      paths:
+      - pathType: Prefix
+        path: "/api/recipe"
+        backend:
+          service:
+            name: recipe-service
+            port: 
+              number: 8080
+   - http:
+      paths:
+      - pathType: Prefix
+        path: "/api/auth"
+        backend:
+          service:
+            name: authentication
             port: 
               number: 8080
