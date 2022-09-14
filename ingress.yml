@@ -30,6 +30,16 @@ spec:
    - http:
       paths:
       - pathType: Prefix
+        path: "/api/cart"
+        backend:
+          service:
+            name: order-service
+            port: 
+              number: 8080
+
+   - http:
+      paths:
+      - pathType: Prefix
         path: "/api/order"
         backend:
           service:
@@ -45,6 +55,7 @@ spec:
             name: recipe-service
             port: 
               number: 8080
+            
    - http:
       paths:
       - pathType: Prefix
