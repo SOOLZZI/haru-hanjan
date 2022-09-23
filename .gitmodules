@@ -19,3 +19,6 @@
 [submodule "frontend"]
 	path = frontend
 	url = https://github.com/SOOLZZI/frontend.git
+[submodule "chatting-service"]
+	path = chatting-service
+	url = https://github.com/SOOLZZI/chatting-service
